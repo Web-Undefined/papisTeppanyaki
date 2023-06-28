@@ -1,0 +1,7 @@
+dark red - 8c231d       ed2c5c
+yellow - ffec01
+light red - c02221       f76f91
+brown - 5d2119
+
+dark blue - 2a2f4a
+dark grey - 5A5A5A
