@@ -199,7 +199,7 @@ html {
 }
 
 body {
-    background: #242943;
+    background: #470707;
 }
 
 body.is-preload *,
@@ -2076,7 +2076,7 @@ select {
 
 select option {
     color: #ffffff;
-    background: #242943;
+    background: #470707;
 }
 
 select:focus::-ms-value {
@@ -2162,7 +2162,7 @@ input[type="radio"]:checked + label:before {
     background: #ffffff;
     border-color: #c02221;
     content: "\f00c";
-    color: #242943;
+    color: #470707;
 }
 
 input[type="checkbox"]:focus + label:before,
@@ -2520,12 +2520,12 @@ ul.pagination li > .page {
 
 ul.pagination li > .page.active {
     background-color: #ffffff;
-    color: #242943;
+    color: #470707;
 }
 
 ul.pagination li > .page.active:hover {
     background-color: #c02221;
-    color: #242943 !important;
+    color: #470707 !important;
 }
 
 ul.pagination li > .page.active:active {
@@ -2798,7 +2798,7 @@ button.primary,
 .button.primary {
     background-color: #ffffff;
     box-shadow: none;
-    color: #242943;
+    color: #470707;
 }
 
 input[type="submit"].primary:hover,
@@ -4083,4 +4083,8 @@ body.is-menu-visible #menu .inner {
     .logo {
         max-width: 25em;
     }
+}
+
+html {
+    scroll-behavior: smooth;
 }
