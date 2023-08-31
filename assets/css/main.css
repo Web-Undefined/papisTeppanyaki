@@ -4079,10 +4079,77 @@ body.is-menu-visible #menu .inner {
     max-width: 35em;
 }
 
+@media screen and (max-width: 475px) {
+    .stacked-buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+}
+
 @media screen and (max-width: 736px) {
     .logo {
         max-width: 25em;
     }
+    .cater-buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .cater-img {
+        max-width: 100% !important;
+    }
+}
+
+@media screen and (min-width: 736px) {
+    .schedule {
+        max-width: 65%;
+        display: block;
+        margin: 0 auto;
+    }
+    .cater-img {
+        max-width: 85% !important;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .cater-img {
+        max-width: 75% !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .cater-img {
+        max-width: 65% !important;
+    }
+}
+
+.major-sub-page {
+    margin: 0 auto !important;
+}
+.major-sub-page {
+    text-align: center;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.img-container {
+    display: flex;
+}
+.flex-img {
+    flex: 33.33%;
+}
+
+.hidden {
+    display: none;
 }
 
 html {
