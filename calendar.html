@@ -10,6 +10,58 @@
 
 	<link rel="shortcut icon" type="image/png" href="images/Papis Teppanyaki Transparent.png" />
 
+	<!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script> -->
+	<script type='text/javascript' crossorigin="anonymous">
+		// var publicSpreadsheetUrl = 'https://docs.google.com/spreadsheets/d/1LU_RY2h70RW37HjUzntAlCxNnesmJTuumTX4_wQPTlM/pubhtml';
+		let calendar = [];
+		// async function getCalendar() {
+		// 	await (await (fetch('https://docs.google.com/spreadsheets/d/1LU_RY2h70RW37HjUzntAlCxNnesmJTuumTX4_wQPTlM/pubhtml', { mode: 'no-cors' }))).json()
+		// 		.then((response) => {
+		// 			this.calendar = response['data']
+		// 			console.log(this.calendar)
+		// 		})
+		// }
+
+		// function getCalendar() {
+		// 	$.ajax({
+		// 		// url: 'https://docs.google.com/spreadsheets/d/1LU_RY2h70RW37HjUzntAlCxNnesmJTuumTX4_wQPTlM/pubhtml?callback=googleDocCallback',
+		// 		url: 'https://docs.google.com/spreadsheets/d/1LU_RY2h70RW37HjUzntAlCxNnesmJTuumTX4_wQPTlM/gviz/tq?sheet=Sheet1&callback=googleDocCallback',
+		// 		type: 'GET',
+		// 	}).done(function (response) {
+		// 		if (response['success']) {
+		// 			console.log("Success: Files sent!", response)
+		// 		}
+		// 		else {
+		// 			console.log("API Error!", response)
+		// 		}
+
+		// 	})
+		// 		.fail(function (data) {
+		// 			console.log('$get failure', data)
+		// 			// place error code here
+		// 		})
+		// }
+
+		// function init() {
+		// 	getCalendar()
+		// }
+
+		// // function init() {
+		// // 	Tabletop.init({
+		// // 		key: publicSpreadsheetUrl,
+		// // 		callback: showInfo,
+		// // 		simpleSheet: true
+		// // 	})
+		// // }
+
+		// // function showInfo(data, tabletop) {
+		// // 	alert('Successfully processed!')
+		// // 	console.log(data);
+		// // }
+
+		// window.addEventListener('DOMContentLoaded', init)
+	</script>
+
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
@@ -67,14 +119,75 @@
 					</header>
 
 					<span class="image main"><a href="#">
-							<img class="sub-page-img schedule" src="images/Papis Teppanyaki Full Week 10.24-10.29.png"
-								alt="" />
+							<img class="sub-page-img schedule" src="images/11.14 - 11.19 full weeek-06.png" alt="" />
 						</a></span>
 					<!-- <div class="center">
 						<ul class="actions">
 							<li><a href="assets/Schedule.pdf" class="button next asian-font">View
 									Schedule PDF</a></li>
 						</ul>
+					</div> -->
+					<header class="major major-sub-page">
+						<h1 class="major-sub-page-title">This Month</h1>
+					</header>
+					<!-- <script type="text/javascript" src="https://stylemygcal.com/widget.js"></script>
+					<div class="smgc-calendar-placeholder" id="smgc-cal-ql62uBBE1G5SXSGD5fFa"></div> -->
+					<div style="display: flex; align-items: center; justify-content: center;">
+						<iframe class="desktop-calendar"
+							src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23D50000&ctz=America%2FLos_Angeles&showTitle=0&showNav=0&showDate=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&src=cGFwaXN0ZXBwYW55YWtpQGdtYWlsLmNvbQ&color=%23D50000"
+							style="border:solid 1px #777" width="800" height="600" frameborder="0"
+							scrolling="no"></iframe>
+					</div>
+					<div style="display: flex; align-items: center; justify-content: center;">
+						<iframe class="mobile-calendar"
+							src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23D50000&ctz=America%2FLos_Angeles&showTitle=0&showNav=0&showDate=0&showPrint=0&showTabs=0&showCalendars=0&showTz=0&mode=AGENDA&src=cGFwaXN0ZXBwYW55YWtpQGdtYWlsLmNvbQ&color=%23D50000"
+							style="border:solid 1px #777" width="375" height="600" frameborder="0"
+							scrolling="no"></iframe>
+					</div>
+
+					<!-- <div class="table-wrapper">
+						<table>
+							<thead>
+								<tr>
+									<th style="width: 10%">Date</th>
+									<th style="width: 15%">Time</th>
+									<th style="width: 20%">Location</th>
+									<th style="width: 55%">Address</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>test1</td>
+									<td>7:00PM</td>
+									<td>Some place</td>
+									<td><a href="">123 Somewhere Lane 92104ujuyjtyjhrthwertgerfthyertyuhrtuh</a></td>
+								</tr>
+								<tr>
+									<td>test2</td>
+									<td>7:00PM</td>
+									<td>Some place</td>
+									<td><a href="">123 Somewhere Lane 92104</a></td>
+								</tr>
+								<tr>
+									<td>test3</td>
+									<td>7:00PM</td>
+									<td>Some place</td>
+									<td><a href="">123 Somewhere Lane 92104</a></td>
+								</tr>
+								<tr>
+									<td>test4</td>
+									<td>7:00PM</td>
+									<td>Some place</td>
+									<td><a href="">123 Somewhere Lane 92104</a></td>
+								</tr>
+								<tr>
+									<td>test5</td>
+									<td>7:00PM</td>
+									<td>Some place</td>
+									<td><a href="">123 Somewhere Lane 92104</a></td>
+								</tr>
+							</tbody>
+						</table>
 					</div> -->
 				</div>
 			</section>
@@ -166,6 +279,7 @@
 	<script src="assets/js/browser.min.js"></script>
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
+	<script src="assets/js/calendar.js"></script>
 	<script src="assets/js/main.js"></script>
 
 </body>

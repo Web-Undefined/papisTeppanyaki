@@ -284,3 +284,7 @@
             if (event.keyCode == 27) $menu._hide();
         });
 })(jQuery);
+
+window.googleDocCallback = function () {
+    return true;
+};

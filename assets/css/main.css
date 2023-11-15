@@ -4152,6 +4152,29 @@ body.is-menu-visible #menu .inner {
     display: none;
 }
 
+.desktop-calendar {
+    display: none;
+}
+
+.mobile-calendar {
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+    .desktop-calendar {
+        display: block;
+    }
+}
+@media screen and (max-width: 600px) {
+    .mobile-calendar {
+        display: block;
+    }
+}
+
+iframe {
+    filter: invert(0.9) saturate(0.5) hue-rotate(145deg);
+}
+
 html {
     scroll-behavior: smooth;
 }
