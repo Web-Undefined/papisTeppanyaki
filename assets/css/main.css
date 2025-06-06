@@ -3247,6 +3247,7 @@ button:disabled,
 }
 
 #header .logo {
+    max-width: 20em !important;
     border: 0;
     display: inline-block;
     font-size: 0.8em;
